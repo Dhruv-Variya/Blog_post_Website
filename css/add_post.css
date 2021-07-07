@@ -1,0 +1,134 @@
+.contact-container{
+    
+    height: 600px;
+     width: 400px;
+     min-height: 400px;
+     background: #FFF;
+     border-radius: 5px;
+     box-shadow: 0 0 5px rgba(0,0,0,.3);
+     padding: 40px 30px;
+ 
+ }
+ .contact-container .login-text {
+     color: #111;
+     font-weight: 500;
+     font-size: 1.1rem;
+     text-align: center;
+     margin-bottom: 20px;
+     display: block;
+     text-transform: capitalize;
+ }
+ 
+ .contact-container .login-social {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+     margin-bottom: 25px;
+ }
+ 
+ .contact-container .login-email .input-group-post_img {
+    width: 100%;
+    height: 50px;
+    /* margin-bottom: 25px; */
+    margin-top: 50px;
+}
+ 
+.label{
+     text-align: center;
+     margin-left: 5px;
+ }
+ .select{
+     width: 100%;
+     margin-bottom: 50px;
+ }
+
+ 
+ .contact-container .login-email .input-group {
+     width: 100%;
+     height: 50px;
+     margin-bottom: 25px;
+     text-align: center;
+ }
+ .contact-container .login-email .input-group textarea {
+     overflow: hidden;
+     resize: none;
+     width: 100%;
+     height: 50px;
+     border: 2px solid #e7e7e7;
+     padding: 15px 20px;
+     font-size: 1rem;
+     border-radius: 30px;
+     background: transparent;
+     outline: none;
+     transition: .3s;
+     margin-bottom: 25px;
+ }
+ .contact-container .login-email .input-group textarea:focus, .contact-container .login-email .input-group textarea:valid {
+     border-color: #a29bfe;
+ }
+ 
+ 
+ .contact-container .login-email .input-group input {
+     width: 100%;
+     height: 50px;
+     border: 2px solid #e7e7e7;
+     padding: 15px 20px;
+     font-size: 1rem;
+     border-radius: 30px;
+     background: transparent;
+     outline: none;
+     transition: .3s;
+ }
+ 
+ .contact-container .login-email .input-group input:focus, .contact-container .login-email .input-group input:valid {
+     border-color: #a29bfe;
+ }
+ 
+ .contact-container .login-email .input-group-btn .btn {
+     display: block;
+     width: 100%;
+     padding: 15px 20px;
+     text-align: center;
+     border: none;
+     background: #a29bfe;
+     outline: none;
+     border-radius: 30px;
+     font-size: 1.2rem;
+     color: #FFF;
+     cursor: pointer;
+     transition: .3s;
+ }
+ 
+ .contact-container .login-email .input-group-btn .btn:hover {
+     transform: translateY(-5px);
+     background: #6c5ce7;
+ }
+ .contact-container  .bt {
+     display: block;
+     width: 100%;
+     padding: 15px 20px;
+     text-align: center;
+     border: none;
+     background: #a29bfe;
+     outline: none;
+     border-radius: 30px;
+     font-size: 1.2rem;
+     color: #FFF;
+     cursor: pointer;
+     transition: .3s;
+ }
+ 
+ .contact-container .bt:hover {
+     transform: translateY(-5px);
+     background: #6c5ce7;
+ }
+ 
+ .login-register-text {
+     color: #111;
+     font-weight: 600;
+ }
+ 
+ .login-register-text a {
+     text-decoration: none;
+     color: #6c5ce7;
+ }
+ 

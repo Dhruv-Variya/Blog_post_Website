@@ -1,0 +1,44 @@
+
+
+@media only screen and (max-width: 1350px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+       margin-bottom: 10px;
+        }
+        
+
+          .content-bottom{
+          padding: 0px;
+           }
+    }
+    @media only screen and (max-width: 444px) {
+        .content-top {
+            display: none;
+        }
+        .navigation{
+            width: 100%;
+        }
+       
+    }
+    @media  screen and (max-width: 450px) {
+        .contact-container{
+        height: 500px;
+    
+        min-height: 400px;
+        background: #FFF;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+        padding: 40px 30px;
+    }
+        .admin-login-container{
+            width: auto;
+        }
+    }
+
+    @media  screen and (max-width: 444px) {
+        #main-content .post-container{
+            padding: 15px;
+        }
+        }
+        

@@ -1,0 +1,220 @@
+.svg-icon{
+    height: 25px;
+    cursor: pointer;
+}
+.admin-post-container{
+    
+    height: auto;
+     width: 60vw;
+     min-height: 400px;
+     background: #FFF;
+     border-radius: 5px;
+     box-shadow: 0 0 5px rgba(0,0,0,.3);
+     padding: 40px 30px;
+ 
+ }
+ .admin-post-container .login-text {
+     color: #111;
+     font-weight: 500;
+     font-size: 1.1rem;
+     text-align: center;
+     margin-bottom: 20px;
+     display: block;
+     text-transform: capitalize;
+ }
+ 
+ .admin-post-container .login-social {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+     margin-bottom: 25px;
+ }
+ 
+ 
+ 
+ .admin-post-container .login-email .input-group {
+     width: 100%;
+     height: 50px;
+     margin-bottom: 25px;
+ }
+ .admin-post-container .login-email .input-group textarea {
+     overflow: hidden;
+     resize: none;
+     width: 100%;
+     height: 50px;
+     border: 2px solid #e7e7e7;
+     padding: 15px 20px;
+     font-size: 1rem;
+     border-radius: 30px;
+     background: transparent;
+     outline: none;
+     transition: .3s;
+     margin-bottom: 25px;
+ }
+ .admin-post-container .login-email .input-group textarea:focus, .admin-post-container .login-email .input-group textarea:valid {
+     border-color: #a29bfe;
+ }
+ 
+ 
+ .admin-post-container .login-email .input-group input {
+     width: 100%;
+     height: 50px;
+     border: 2px solid #e7e7e7;
+     padding: 15px 20px;
+     font-size: 1rem;
+     border-radius: 30px;
+     background: transparent;
+     outline: none;
+     transition: .3s;
+ }
+ 
+ .admin-post-container .login-email .input-group input:focus, .admin-post-container .login-email .input-group input:valid {
+     border-color: #a29bfe;
+ }
+ 
+ .admin-post-container .login-email .input-group-btn .btn {
+     display: block;
+     width: 100%;
+     padding: 15px 20px;
+     text-align: center;
+     border: none;
+     background: #a29bfe;
+     outline: none;
+     border-radius: 30px;
+     font-size: 1.2rem;
+     color: #FFF;
+     cursor: pointer;
+     transition: .3s;
+ }
+ 
+ .admin-post-container .login-email .input-group-btn .btn:hover {
+     transform: translateY(-5px);
+     background: #6c5ce7;
+ }
+ .admin-post-container  .bt {
+     display: block;
+     width: 100%;
+     padding: 15px 20px;
+     text-align: center;
+     border: none;
+     background: #a29bfe;
+     outline: none;
+     border-radius: 30px;
+     font-size: 1.2rem;
+     color: #FFF;
+     cursor: pointer;
+     transition: .3s;
+ }
+ .blogpost-meta{ 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.author-info{
+    margin: 12px 0;
+}
+.author-info div{
+    padding: 4px 0px;
+    padding-left: 55px;
+    font-family: var(--font2);
+}
+.social{
+    padding-right: 55px;
+    align-self: center;
+    cursor: pointer;
+}
+ .admin-post-container .bt:hover {
+     transform: translateY(-5px);
+     background: #6c5ce7;
+ }
+ 
+ .login-register-text {
+     color: #111;
+     font-weight: 600;
+ }
+ 
+ .login-register-text a {
+     text-decoration: none;
+     color: #6c5ce7;
+ }
+ 
+
+.content-table{
+    border: 1px solid #000;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.content-table thead{
+    color: #fff;
+    background-color: #333;
+}
+
+.content-table th{
+    padding: 10px;
+    border: 1px solid #fff;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-table tbody{
+    color: #333;
+}
+
+.content-table tbody tr{
+    background-color: #e7e7e7;
+}
+.content-table tbody tr:nth-child(even){
+    background-color: #fff;
+}
+.content-table tbody td{
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+height: 50px;
+}
+
+
+
+.id,
+.edit,
+.delete{
+    text-align:center;
+}
+
+
+
+@media  screen and (max-width: 970px) {
+    .content-table thead{
+        display: none;
+    }
+    .content-table, .content-table tbody, .content-table tr, .content-table td{
+        display: block;
+        width: 100%;
+
+    }
+    .content-table tbody tr td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        height: auto;
+    }
+    .content-table td:before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        text-align: left;
+
+    }
+    .author-info div {
+        padding-left: 0px;
+    }
+    .social{
+        padding-right: 0px;
+    }
+.admin-post-container{
+    padding: 17px 17px;
+}
+}
