@@ -14,7 +14,7 @@
 ![Capture4](https://user-images.githubusercontent.com/86519206/124766359-b2993d00-deeb-11eb-99c4-f1452aed2c88.PNG)
 
 
-- "RECENT UPLOADED ARTICLES" - this section is outo update by new uploaded articles which users and admins are upload in website
+- "RECENT UPLOADED ARTICLES" - this section is auto update by new uploaded articles which users and admins are upload in website
 
 ![Capture6](https://user-images.githubusercontent.com/86519206/124767414-a661af80-deec-11eb-8553-1504a9856e5c.PNG)
 
