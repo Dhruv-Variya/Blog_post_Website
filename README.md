@@ -5,8 +5,27 @@
 - Firsht create folder by name "search_engine_by_php" and add all files in this folder. 
 - Then create database name "dark" and add "dark.sql" in it which is in "database" named folder.
 - Then check website in localhost
+
+***DEMO WEBSITE***
+- This Is Demo Video 
+- we created video in two parts b'coz of file size problem
+- so please watch both videos
+
+
+
+
+
+https://user-images.githubusercontent.com/86519206/124911721-ee8ed980-dfa1-11eb-8f36-dea1f93dbe1d.mp4
+
+https://user-images.githubusercontent.com/86519206/124912197-81c80f00-dfa2-11eb-8d99-9e63e2d4f01a.mp4
+
+
+
+
+***ALL ABOUT WEBSITE***
 - In this website there are 3 sections 1.home 2.contact 3.login(admin panal)
 - This is website preview -->
+- 
 
 1.Home
 - Home :
