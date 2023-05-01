@@ -1,7 +1,9 @@
 # search_engine_by_php < CE135 , CE88 , CE89 >
-- IN THIS PROJECT WE ARE THREE FRIENDS 
-- ROLL NO IS CE_88 , CE_89 , CE_135 .......
-- This is website for article search engine by php.
+- IN THIS PROJECT WE ARE THREE PARTNERS
+- CE 135 DHRUV VARIYA 
+- CE 088 NILKANTH PATEL
+- CE 089 PRATHAM PATEL
+- This is website for article search enginE by php.
 - Firsht create folder by name "search_engine_by_php" and add all files in this folder. 
 - Then create database name "dark" and add "dark.sql" in it which is in "database" named folder.
 - Then check website in localhost
